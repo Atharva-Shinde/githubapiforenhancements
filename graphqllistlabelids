@@ -1,0 +1,20 @@
+{
+  repository(name: "githubapiforenhancements", owner: "Atharva-Shinde") {
+    issues(last: 1, states: OPEN) {
+      edges {
+        node {
+          title
+          url
+          labels(first: 5) {
+            edges {
+              node {
+                name
+                id
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
