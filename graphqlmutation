@@ -1,0 +1,4 @@
+mutation MyMutation {
+  removeLabelsFromLabelable(input: {labelableId: "", labelIds: ""}) {
+    clientMutationId
+  }
